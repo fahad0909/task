@@ -1,0 +1,30 @@
+:root {
+  --colorA: #46139f;
+  --colorB: #ff7f50;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.buttonA{
+  background: var(--colorA) !important;
+  border: none !important;
+}
+.buttonB{
+  background: var(--colorB) !important;
+  border: none !important;
+}
+.buttonC{
+  background: white !important;
+  border: 1px solid var(--colorA) !important;
+  color: var(--colorA) !important;
+}
+.list{
+  height: 300px;
+  overflow-y: scroll;
+}
+.listItems{
+  border: 1px solid lightgrey !important;
+}
